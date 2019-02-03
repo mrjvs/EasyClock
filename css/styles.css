@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+html, body {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+body.night {
+    background-color: #000;
+    color: white;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 10em;
+    margin: 0;
+    margin-top: -100px;
+    display: block;
+    padding: 0 .1em;
+}
+
+h1#hours {
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 15em;
+}
+
+h1.q {
+    color: blue;
+}
+h1.qt {
+    color: red;
+}
+
+h1.h {
+    border: 5px black solid;
+}
+
+body.night h1.h {
+    border-color: white;
+}
+
+.hide {
+    display: none;
+}
