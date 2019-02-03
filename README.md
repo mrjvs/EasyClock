@@ -9,3 +9,4 @@ A very fast and simple web clock for my handicapped brother.
  - blue: quarter past number in the middle.
  - red: quarter to the number in the middle.
  - number in the middle: the hour.
+ - dark theme: its very late or very early.
